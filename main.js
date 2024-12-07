@@ -1,5 +1,5 @@
-    let num = +prompt("1-raqamni kiriting")
-    let jet = +prompt("2-raqamni kiriting")
+    let num = +prompt("raqam kiriting")
+    let jet = +prompt("darajani kiriting")
     if (isNaN(num)|| isNaN(jet)||num==0 || jet==0) {
       alert("Iltimos faqar raqam kiriting")
     }
